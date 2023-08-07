@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class suprret {
+public class CPTGameV1 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
@@ -240,13 +240,6 @@ case 4:
   
 
 }
-
-
-
-
-
-
-
 
 
 
