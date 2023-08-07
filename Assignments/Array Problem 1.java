@@ -6,11 +6,11 @@ no23([3, 5]) → false
  
  */
 
-public class BatArray1 {
+public class ArrayP1 {
     public static void main (String[]args){
 
         int [] originalArray = new int [2];
-        boolean cat = true;
+        boolean bool = true;
 
         for (int i = 0; i < originalArray.length; i++){
             originalArray[i] = (int)(Math.random()*10+1);
@@ -24,12 +24,12 @@ public class BatArray1 {
 
         for (int a = 0; a < originalArray.length; a++){
             if (originalArray[a]==2 || originalArray[a]==3){
-                cat = false;
+                bool = false;
             }
         }
 
         System.out.println();
-        System.out.println(cat);
+        System.out.println(bool);
 
 
 
