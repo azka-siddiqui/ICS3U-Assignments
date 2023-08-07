@@ -1,6 +1,6 @@
-// this program uses the .repeat() method, so using a while loop is better for the time being
+// this program will print a triangle-pattern of asterisks
 
-class betterTable {
+class trianglePattern {
     public static void main(String [] args){
 
         String asterisk = "*";
