@@ -1,20 +1,19 @@
 /*
- * create a triangle class and calculate area and perimeter in a method
- * tell if it is equilateral or isosceles triangle
+ * Create a triangle class and calculate area and perimeter in a method
+ * Identify if it is equilateral or isosceles triangle
  */
 
 class TrianglesAreFun {
     public static void main(String[]args){
 
-        Triangle blob = new Triangle(4, 7, 4, 6, 8);
+        Triangle shape = new Triangle(4, 7, 4, 6, 8);
 
-        System.out.println("The base length of the triangle: "+blob.base);
-        System.out.println("The height of the triangle: "+blob.height);
-        System.out.println("The area of the triangle is: "+blob.area());
-        System.out.println("The triangle is equilateral: "+blob.isEquilateral());
+        System.out.println("The base length of the triangle: "+shape.base);
+        System.out.println("The height of the triangle: "+shape.height);
+        System.out.println("The area of the triangle is: "+shape.area());
+        System.out.println("The triangle is equilateral: "+shape.isEquilateral());
         
     }
-
 }
 
 class Triangle{
@@ -39,7 +38,7 @@ class Triangle{
         public int area (){
 
             return (base*height)/2;
-    
+
         }
     
         public boolean isEquilateral(){
