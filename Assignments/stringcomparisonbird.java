@@ -1,13 +1,12 @@
 /***********
  * @Author: A. Siddiqui      @Date: 3/21/2023
  * @Instructor: A. Carreiro
- * @Class: whiile test
  * @Description: This program will check if selection is the word bird
  */
 
 import java.util.Scanner;
 
-class whiiletest{
+class stringtest{
     public static void main (String[]args){
         //variable declaration and initialization
         Scanner uI = new Scanner(System.in);
