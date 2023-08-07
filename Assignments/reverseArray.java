@@ -1,4 +1,4 @@
-public class reverseprep {
+public class reverseArray {
     public static void main (String [] args){
 
         int [] original = {1,2,3,4,5};
