@@ -1,7 +1,7 @@
 class problemset17 {
     public static void main (String [] args){
 
-        String str = "Hello cat";
+        String str = "Hello Azka";
 
         String s2 = " Secondary School";
 
