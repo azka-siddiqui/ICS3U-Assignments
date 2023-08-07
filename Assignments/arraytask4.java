@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class m1{
+class arraytask4{
     public static void main (String [] args){
 
         Scanner uI = new Scanner (System.in);
